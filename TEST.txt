@@ -1,0 +1,83 @@
+
+---Listing People in inorder---
+Abraham Johnson | 9028475647 | September | 2006
+Adam Apple | 9873647563 | October | 2001
+Bobbie Billy | 7364529384 | November | 2002
+Carly Janice | 8374652901 | February | 2001
+Dick Richard | 7384759201 | March | 2001
+Edward Kennway | 7465389234 | April | 2001
+Frank Franklyn | 8934762534 | May | 1999
+George Jorge | 9847563745 | April | 1998
+James Charles | 7348394857 | June | 2000
+Jeff Jones | 8273049583 | July | 1999
+Jimmy Grapolo | 845214587 | September | 1980
+John Able | 8449390030 | April | 1999
+Johnny Smith | 8745214897 | April | 2001
+Kevin Francisco | 8394059876 | September | 1999
+Liam Damien | 6788934212 | November | 1990
+Nate Branden | 1293472153 | December | 1978
+Olivia Red | 2984753901 | July | 1969
+Pop Pop | 1234837364 | December | 1997
+Samantha Mylo | 8745178963 | October | 2020
+Steve Jobs | 4578123654 | December | 1970
+---End of List---
+
+--Contacts of month June---
+James Charles
+---End of List---
+--Contacts of month September---
+Abraham Johnson
+Jimmy Grapolo
+Kevin Francisco
+---End of List---
+
+---Listing People in preorder---
+James Charles
+Abraham Johnson
+Adam Apple
+Bobbie Billy
+Carly Janice
+Dick Richard
+Edward Kennway
+Frank Franklyn
+George Jorge
+John Able
+Jeff Jones
+Jimmy Grapolo
+Pop Pop
+Kevin Francisco
+Johnny Smith
+Liam Damien
+Nate Branden
+Olivia Red
+Samantha Mylo
+Steve Jobs
+---End of List---
+
+
+--- TESTING Search, remove Contact, new Contact ---
+
+---Returning Search Results---
+Olivia Red | 2984753901 | July | 25 | 1969
+CONTACT DELETED Olivia Red has been removed
+Error: Olivia Red Not Found
+ERROR: Mark Not Found
+---Returning Search Results---
+Mark | null | null | 0 | 0
+---Returning Search Results---
+Joey Evans | 5145698745 | null | 0 | 0
+---Returning Search Results---
+Janice Kyle | 8452365489 | August | 21 | 1898
+CONTACT DELETED Joey Evans has been removed
+
+--- TESTING modify Number and modify Birthday ---
+
+ERROR: Janice Kyl Not Found: NO MODIFICATION WERE MADE
+---Returning Search Results---
+Janice Kyle | 8452365489 | August | 21 | 1898
+---Returning Search Results---
+Mark | 9876543210 | null | 0 | 0
+---Returning Search Results---
+Mark | 9876543210 | June | 15 | 2015
+
+Process finished with exit code 0
